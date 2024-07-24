@@ -9,10 +9,10 @@ import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.mainfunc.get_qty as gq
-import fire_an.readfire.readin_fire_data as rfd
-import fire_an.simlists as sl
-import fire_an.utils.h5utils as h5u
+import ne8abs_paper.mainfunc.get_qty as gq
+import ne8abs_paper.readfire.readin_fire_data as rfd
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.h5utils as h5u
 
 snaps_hr = sl.snaps_hr
 snaps_sr = sl.snaps_sr

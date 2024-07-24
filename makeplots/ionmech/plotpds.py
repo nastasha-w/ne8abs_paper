@@ -9,11 +9,11 @@ import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.explore.find_cpie_cat as fcpie
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
-from fire_an.ionrad.ion_utils import Linetable_PS20
-import fire_an.simlists as sl 
+import ne8abs_paper.explore.find_cpie_cat as fcpie
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
+from ne8abs_paper.ionrad.ion_utils import Linetable_PS20
+import ne8abs_paper.simlists as sl 
 
 
 def readpd(filen, rrange_rvir=(0.1, 1.)):

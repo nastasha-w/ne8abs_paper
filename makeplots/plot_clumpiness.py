@@ -4,8 +4,8 @@ import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.makeplots.plot_utils as pu
-import fire_an.simlists as sl
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.simlists as sl
 
 
 ddir_clumpprof = '/projects/b1026/nastasha/clumps/'

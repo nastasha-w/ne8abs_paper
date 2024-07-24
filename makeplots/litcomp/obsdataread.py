@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import scipy.special as sps
 
-import fire_an.mstar_mhalo.analytical as msmhan
-import fire_an.mstar_mhalo.loader_smdpl_sfr as ldsmdpl
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.mstar_mhalo.analytical as msmhan
+import ne8abs_paper.mstar_mhalo.loader_smdpl_sfr as ldsmdpl
+import ne8abs_paper.utils.math_utils as mu
 
 ## From Zhijie:
 #Two notes to clarify the table:

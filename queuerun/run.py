@@ -1,16 +1,16 @@
 
 import sys
 
-import fire_an.explore.effective_yields as efy
-import fire_an.explore.run_clumpiness as rcn
-import fire_an.mainfunc.haloprop as hp
-import fire_an.tests.test_haloprops as th
-import fire_an.tests.test_maps as tm
-import fire_an.tests.test_readfire as trf
-import fire_an.tests.test_ionbal as tib
-import fire_an.queuerun.run_ionmaps as rim
-import fire_an.queuerun.run_hists as rhs
-import fire_an.queuerun.run_haloprop as rhp
+import ne8abs_paper.explore.effective_yields as efy
+import ne8abs_paper.explore.run_clumpiness as rcn
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.tests.test_haloprops as th
+import ne8abs_paper.tests.test_maps as tm
+import ne8abs_paper.tests.test_readfire as trf
+import ne8abs_paper.tests.test_ionbal as tib
+import ne8abs_paper.queuerun.run_ionmaps as rim
+import ne8abs_paper.queuerun.run_hists as rhs
+import ne8abs_paper.queuerun.run_haloprop as rhp
 
 
 def fromcommandline(index):

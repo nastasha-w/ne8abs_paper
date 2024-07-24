@@ -2,10 +2,10 @@
 import numpy as np
 import os
 
-from fire_an.ionrad.ion_utils import Linetable_PS20
-import fire_an.mainfunc.makehist as mh
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
+from ne8abs_paper.ionrad.ion_utils import Linetable_PS20
+import ne8abs_paper.mainfunc.makehist as mh
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
     
 def run_hist_ptmasses_all2(opt):
     if opt >= 0 and opt < 450:

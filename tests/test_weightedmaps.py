@@ -3,8 +3,8 @@ import matplotlib.gridspec as gsp
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.mainfunc.makemap as mm
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.mainfunc.makemap as mm
+import ne8abs_paper.utils.constants_and_units as c
 
 # quest
 #tdir = '/projects/b1026/nastasha/tests/weightedmaps/'

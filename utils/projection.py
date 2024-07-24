@@ -5,7 +5,7 @@
 import numpy as np
 import ctypes as ct
 
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.utils.opts_locs as ol
 
 def project(NumPart, Ls, Axis1, Axis2, Axis3, box3, periodic, npix_x, npix_y,
             kernel, dct, tree, ompproj=True, projmin=None, projmax=None):

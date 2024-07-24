@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import mpl_toolkits.mplot3d as m3d 
 import numpy as np
 
-import fire_an.mainfunc.coords as crd
-import fire_an.mainfunc.get_qty as gq
-import fire_an.readfire.readin_fire_data as rfd
+import ne8abs_paper.mainfunc.coords as crd
+import ne8abs_paper.mainfunc.get_qty as gq
+import ne8abs_paper.readfire.readin_fire_data as rfd
 
 zdir_tests = [np.array([1., 1., 1.]),
               np.array([-1., -1., -1.]),

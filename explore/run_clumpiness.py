@@ -1,9 +1,9 @@
 import numpy as np
 import os
 
-import fire_an.explore.clumpiness as cpn
-import fire_an.simlists as sl
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.explore.clumpiness as cpn
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.opts_locs as ol
 
 def run_clumpiness(opt):
     outdir = ol.pre + 'output/clumps/'

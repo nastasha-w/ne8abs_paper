@@ -5,9 +5,9 @@ import matplotlib.gridspec as gsp
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.analytic_halo.model_ionprof_pl as mip
-import fire_an.makeplots.plot_utils as pu
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.analytic_halo.model_ionprof_pl as mip
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.utils.constants_and_units as c
 
 #outdir = '/Users/nastasha/ciera/projects_lead/fire3_ionabs/analytical/'
 outdir = '/projects/b1026/nastasha/imgs/analytical/'

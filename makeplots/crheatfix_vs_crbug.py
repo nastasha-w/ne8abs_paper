@@ -3,8 +3,8 @@ import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.makeplots.get_2dprof as gpr
-import fire_an.simlists as sl
+import ne8abs_paper.makeplots.get_2dprof as gpr
+import ne8abs_paper.simlists as sl
 
 
 def comp_crheatfix_crbug():

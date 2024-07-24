@@ -14,8 +14,8 @@ import h5py
 import numpy as np
 import os
 
-import fire_an.utils.h5utils as h5u
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.utils.h5utils as h5u
+import ne8abs_paper.utils.math_utils as mu
 
 ## directory where the catalog files live
 #ddir_smdpl = '/Users/nastasha/ciera/data_smdpl_sfr/'

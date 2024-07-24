@@ -1,6 +1,6 @@
 import os
 
-import fire_an.simlists as sl
+import ne8abs_paper.simlists as sl
 
 simnames_all = sl.m12_hr_all2 + sl.m12_sr_all2 + sl.m12_f2md + \
                sl.m13_hr_all2 + sl.m13_sr_all2

@@ -15,8 +15,8 @@ import matplotlib.patches as mpatch
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gsp
 
-import fire_an.makeplots.plot_utils as pu
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.utils.constants_and_units as c
 
 
 def quicklook_massmap(filen, savename=None, mincol=None):

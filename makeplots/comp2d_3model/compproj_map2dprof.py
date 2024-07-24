@@ -7,12 +7,12 @@ import matplotlib.patches as mpatch
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.makeplots.get_2dprof as g2d
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.makeplots.get_2dprof as g2d
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.math_utils as mu
 
 
 def plotcomp_projax(filen_template, qtyfills, paxfills,

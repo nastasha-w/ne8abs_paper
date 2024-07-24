@@ -4,11 +4,11 @@ import numpy as np
 import string
 import numbers as num
 
-from fire_an.ionrad.ion_utils import Linetable_PS20, atomw_u_dct, elt_atomw_cgs
-import fire_an.mainfunc.coords as coords
-import fire_an.mainfunc.haloprop as hp
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.opts_locs as ol
+from ne8abs_paper.ionrad.ion_utils import Linetable_PS20, atomw_u_dct, elt_atomw_cgs
+import ne8abs_paper.mainfunc.coords as coords
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.opts_locs as ol
 
 
 # tested -> seems to work

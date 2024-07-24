@@ -5,11 +5,11 @@ Save Ne8 data for the observation comparison plots
 import h5py
 import numpy as np
 
-import fire_an.makeplots.get_2dprof as gpr
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.cosmo_utils as cu
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.makeplots.get_2dprof as gpr
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.cosmo_utils as cu
+import ne8abs_paper.utils.opts_locs as ol
 
 savedir = '/projects/b1026/nastasha/plotdata/'
 filen_save = savedir + 'coldens_radprof_Ne8_opt3.hdf5'

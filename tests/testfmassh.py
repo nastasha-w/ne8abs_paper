@@ -15,7 +15,7 @@ import matplotlib as mpl
 
 from importlib import reload
 
-import fire_an.ionrad.calcfmassh as cfh
+import ne8abs_paper.ionrad.calcfmassh as cfh
 reload(cfh) # testing -> keep up to date
 
 ## input test values

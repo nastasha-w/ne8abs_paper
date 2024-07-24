@@ -1,8 +1,8 @@
 
-import fire_an.mainfunc.cengalprop as cgp
-import fire_an.mainfunc.haloprop as hp
-import fire_an.simlists as sl
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.mainfunc.cengalprop as cgp
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.opts_locs as ol
 
 def run_halodata(opt):
     # test cases

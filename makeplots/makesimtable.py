@@ -1,9 +1,9 @@
 import numpy as np
 
-import fire_an.mainfunc.cengalprop as cgp
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.mainfunc.cengalprop as cgp
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.opts_locs as ol
 
 # first go; check actual values, Msun or Msun/h
 resolutions = {'m3e5': 3e5,

@@ -5,11 +5,11 @@ import numbers as num
 import numpy as np
 import os
 
-import fire_an.mainfunc.get_qty as gq
-import fire_an.mainfunc.haloprop as hp
-import fire_an.readfire.readin_fire_data as rf
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.h5utils as h5u
+import ne8abs_paper.mainfunc.get_qty as gq
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.readfire.readin_fire_data as rf
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.h5utils as h5u
 
 
 def getaxbins(minfinite, maxfinite, bin, extendmin=True, extendmax=True):

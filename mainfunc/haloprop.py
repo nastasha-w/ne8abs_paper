@@ -9,7 +9,7 @@ import uuid
 
 import matplotlib.pyplot as plt # debugging
 
-import fire_an.simlists as sl
+import ne8abs_paper.simlists as sl
 
 
 # Andrew Wetzel's Rockstar halo catalogue wrangler
@@ -20,11 +20,11 @@ except ModuleNotFoundError:
            ' Rockstar halo data read-in will fail.')
     print(msg)
 
-import fire_an.readfire.readin_fire_data as rf
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.cosmo_utils as cu
-import fire_an.utils.math_utils as mu
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.readfire.readin_fire_data as rf
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.cosmo_utils as cu
+import ne8abs_paper.utils.math_utils as mu
+import ne8abs_paper.utils.opts_locs as ol
 
 
 

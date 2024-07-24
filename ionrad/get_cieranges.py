@@ -1,7 +1,7 @@
 import numpy as np
 
-import fire_an.ionrad.ion_utils as iu
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.ionrad.ion_utils as iu
+import ne8abs_paper.utils.math_utils as mu
 
 def calc_cieranges(threshval, ions, zs, nHval_logpcm3=1.,
                    metval_logsolar=0.):

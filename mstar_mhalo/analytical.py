@@ -6,9 +6,9 @@ import numpy as np
 import scipy.special as sps
 import scipy.interpolate as spi
 
-import fire_an.utils.math_utils as mu
-import fire_an.utils.cosmo_utils as cu
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.utils.math_utils as mu
+import ne8abs_paper.utils.cosmo_utils as cu
+import ne8abs_paper.utils.constants_and_units as c
 
 def mstar_moster_etal_2013(mvir_msun, redshift):
     # uses M200c for the Mvir definition

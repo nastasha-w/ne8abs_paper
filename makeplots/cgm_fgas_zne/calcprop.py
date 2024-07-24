@@ -23,9 +23,9 @@ _v2 files: includes FIRE-3.x data
 import h5py
 import numpy as np
 
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.math_utils as mu
 
 datadir_rvcen = '/projects/b1026/nastasha/hists/r_vr_all2/'
 filetemp_rvcen = ('hist_rcen_vcen_{axis2}_by_{weight}_{simname}'

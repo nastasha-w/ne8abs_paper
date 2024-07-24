@@ -11,10 +11,10 @@ the sample I'm analysing.)
 
 import numpy as np
 
-import fire_an.mainfunc.get_qty as gq
-import fire_an.mainfunc.haloprop as hp
-import fire_an.readfire.readin_fire_data as rfd
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.mainfunc.get_qty as gq
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.readfire.readin_fire_data as rfd
+import ne8abs_paper.utils.constants_and_units as c
 
 simname = ('m12f_m6e4_MHDCRspec1_fire3_fireBH_fireCR1_Oct252021_crdiffc1'
            '_sdp1e-4_gacc31_fa0.5_fcr1e-3_vw3000')

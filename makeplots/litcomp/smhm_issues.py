@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-import fire_an.makeplots.tol_colors as tc
-import fire_an.makeplots.plot_utils as pu
-import fire_an.mstar_mhalo.analytical as smhman
-import fire_an.mstar_mhalo.loader_smdpl_sfr as smhmld
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.cosmo_utils as cu
-import fire_an.utils.math_utils as mu
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.mstar_mhalo.analytical as smhman
+import ne8abs_paper.mstar_mhalo.loader_smdpl_sfr as smhmld
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.cosmo_utils as cu
+import ne8abs_paper.utils.math_utils as mu
+import ne8abs_paper.utils.opts_locs as ol
 
 #datadir_b18 = '/Users/nastasha/ciera/projects_lead/fire3_ionabs/'
 datadir_b18 = '/projects/b1026/nastasha/extdata/'

@@ -6,10 +6,10 @@ import numpy as np
 import matplotlib.gridspec as gsp
 import matplotlib.pyplot as plt
 
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.opts_locs as ol
 
 def plot3dprof_wcomp_weightvalgrid(filen_template, fillkw_weights, 
                                    fillkw_vals, fillkw_z, 

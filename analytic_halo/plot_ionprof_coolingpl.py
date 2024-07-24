@@ -6,13 +6,13 @@ import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.analytic_halo.model_ionprof_coolingpl as mic
-import fire_an.ionrad.ion_utils as iu
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
-import fire_an.mstar_mhalo.loader_smdpl_sfr as ldsmdpl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.analytic_halo.model_ionprof_coolingpl as mic
+import ne8abs_paper.ionrad.ion_utils as iu
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.mstar_mhalo.loader_smdpl_sfr as ldsmdpl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.math_utils as mu
 
 def get_sfrs_mh(logmhs_msun, z=0.75, percentiles=(0.16, 0.5, 0.84)):
     histobj = ldsmdpl.SFRHMhists(np.array([z]))

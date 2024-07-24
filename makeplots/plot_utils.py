@@ -15,7 +15,7 @@ import matplotlib.lines as mlines
 import matplotlib.legend_handler as mlh
 import matplotlib.patheffects as mppe 
 
-import fire_an.makeplots.tol_colors as tc
+import ne8abs_paper.makeplots.tol_colors as tc
 
 # default
 fontsize = 12

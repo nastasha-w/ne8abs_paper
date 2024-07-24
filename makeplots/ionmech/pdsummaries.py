@@ -6,11 +6,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-import fire_an.makeplots.ionmech.plotpds as ppd
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
-from fire_an.ionrad.ion_utils import Linetable_PS20
-import fire_an.simlists as sl 
+import ne8abs_paper.makeplots.ionmech.plotpds as ppd
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
+from ne8abs_paper.ionrad.ion_utils import Linetable_PS20
+import ne8abs_paper.simlists as sl 
 
 def readpd(filen, rrange_rvir=(0.1, 1.)):
     with h5py.File(filen, 'r') as f:

@@ -1,8 +1,8 @@
 import numpy as np
 import scipy.interpolate as scpi
 
-from fire_an.ionrad.ion_utils import Linetable_PS20
-import fire_an.utils.math_utils as mu
+from ne8abs_paper.ionrad.ion_utils import Linetable_PS20
+import ne8abs_paper.utils.math_utils as mu
 
 # from Lide D.R., ed. 2003, CRC Handbook of Chemistry and Physics,
 #  84 edn. CRC Press LLC, Boca Raton:

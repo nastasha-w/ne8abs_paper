@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 
-import fire_an.mainfunc.cengalprop as cgp
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.mainfunc.cengalprop as cgp
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
 
 ddir = '/projects/b1026/nastasha/hists/r_vr_all2/'
 totfilen = ddir + 'gas_Neon_Ne8_masses_rTcuts_v2.dat'

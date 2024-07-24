@@ -5,11 +5,11 @@ Use power law models from Stern et al.
 import numpy as np
 #import scipy.stats as spstat
 
-#import fire_an.mstar_mhalo.analytical as an
-import fire_an.ionrad.ion_utils as iu
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.cosmo_utils as cu
-#import fire_an.utils.opts_locs as ol
+#import ne8abs_paper.mstar_mhalo.analytical as an
+import ne8abs_paper.ionrad.ion_utils as iu
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.cosmo_utils as cu
+#import ne8abs_paper.utils.opts_locs as ol
 
 # copied from m12q AGN-CR
 cosmopars_base_fire = {'h': 0.702, 

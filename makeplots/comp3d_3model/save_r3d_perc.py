@@ -3,10 +3,10 @@ import matplotlib.gridspec as gsp
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.math_utils as mu
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.math_utils as mu
+import ne8abs_paper.utils.opts_locs as ol
 
 histdir = '/projects/b1026/nastasha/hists/r_vr_all2/'
 savedir = '/projects/b1026/nastasha/plotdata/'

@@ -4,15 +4,15 @@ density paper
 '''
 import numpy as np
 
-import fire_an.makeplots.litcomp.plot_obscomp as poc
-import fire_an.makeplots.plotmaps_overview as pmo
-import fire_an.makeplots.plot_clumpiness as pcl
-import fire_an.makeplots.comp3d_3model.plot_r3d_perc_indiv as pri
-import fire_an.makeplots.cgm_fgas_zne.plotprop as pcp
-import fire_an.makeplots.litcomp.obs_vs_analytical as ova
-import fire_an.mstar_mhalo.plot_mstar_mh as psh
-import fire_an.makeplots.litcomp.smhm_issues as shi
-import fire_an.makeplots.makesimtable as mst
+import ne8abs_paper.makeplots.litcomp.plot_obscomp as poc
+import ne8abs_paper.makeplots.plotmaps_overview as pmo
+import ne8abs_paper.makeplots.plot_clumpiness as pcl
+import ne8abs_paper.makeplots.comp3d_3model.plot_r3d_perc_indiv as pri
+import ne8abs_paper.makeplots.cgm_fgas_zne.plotprop as pcp
+import ne8abs_paper.makeplots.litcomp.obs_vs_analytical as ova
+import ne8abs_paper.mstar_mhalo.plot_mstar_mh as psh
+import ne8abs_paper.makeplots.litcomp.smhm_issues as shi
+import ne8abs_paper.makeplots.makesimtable as mst
 
 def runplots():
     ## data comparisons

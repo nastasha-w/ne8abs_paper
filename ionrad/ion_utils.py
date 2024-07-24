@@ -7,8 +7,8 @@ import string
 import h5py
 import scipy.interpolate as spint 
 
-import fire_an.utils.opts_locs as ol
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.utils.opts_locs as ol
+import ne8abs_paper.utils.constants_and_units as c
 
 atomw_u_dct = \
     {'Hydrogen':  c.atomw_H,

@@ -7,8 +7,8 @@ import matplotlib.gridspec as gsp
 import matplotlib.patches as mpatch
 import matplotlib.pyplot as plt
 
-import fire_an.makeplots.plot_utils as pu
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.utils.constants_and_units as c
 
 
 def plotcomp_mass_ion_physmodels(fns_mass, fns_ion, model_labels,

@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-import fire_an.analytic_halo.model_ionprof_pl as mip
-import fire_an.ionrad.ion_utils as iu
-import fire_an.makeplots.tol_colors as tc
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.cosmo_utils as cu
+import ne8abs_paper.analytic_halo.model_ionprof_pl as mip
+import ne8abs_paper.ionrad.ion_utils as iu
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.cosmo_utils as cu
 
-# fire_an.makeplots.litcomp.obsdataread for calculations
+# ne8abs_paper.makeplots.litcomp.obsdataread for calculations
 oddir = '/projects/b1026/nastasha/extdata/' # quest
 #oddir = '/Users/nastasha/ciera/projects_lead/fire3_ionabs/' #laptop 
 q23filen = oddir + 'plotdata_q23_nsigmas_1_2.dat'

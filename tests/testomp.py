@@ -9,7 +9,7 @@ Created on Wed Feb 14 16:39:35 2018
 import numpy as np
 import ctypes as ct
 
-import fire_an.utils.projection as m3
+import ne8abs_paper.utils.projection as m3
 
 NumPart = 10**5
 

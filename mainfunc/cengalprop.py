@@ -10,11 +10,11 @@ import os
 import sys
 import uuid
 
-import fire_an.mainfunc.haloprop as hp
-import fire_an.readfire.readin_fire_data as rf
-import fire_an.simlists as sl
-import fire_an.utils.h5utils as h5u
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.readfire.readin_fire_data as rf
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.h5utils as h5u
+import ne8abs_paper.utils.opts_locs as ol
 
 def calccengalcen(simpath, snapnum, startrad_rvir=0.3,
                   vcenrad_rvir=0.05, mstarrad_rvir=0.1):

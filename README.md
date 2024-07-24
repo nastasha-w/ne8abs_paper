@@ -2,18 +2,18 @@
 code and scripts for finding main halos, making histograms and 2D
 projected maps, and analysing those products in FIRE simulations.
 This is a subset of the scripts in my fire_an repo which I used
-specifically for Wijers et al. (2024).
+specifically for Wijers et al. (2024), copied on July 23, 2024 from
+the fire_an main branch.
 
 
 
 'installation':
 ---------------
-This is an in-development set of scripts, not a polished package. Many
-of the scripts are in flux, especially those in `queuerun` and 
-`makeplots`, and I do have a tendency to do development on the main 
-branch (especially if it's unlikely to break something important). 
-Because I'm updating this a lot, it's simpler to just use git pulls 
-instead of running an installation every time. However, I have provided
+This is a selection of scripts, not a polished package. Many scripts, especially those in `queuerun` and 
+`makeplots`, contain functions and other bits of code that I did not
+end up using in the paper.
+
+I have provided
 a `condaenv_firep1.yml` file that includes the python packages required 
 to run these scripts. It can be used to set up a conda environment 
 where this code should run.
@@ -46,44 +46,28 @@ setups on github, without constantly overwriting local locations.
 running the scripts:
 --------------------
 To run, for example, `run.py`, options are:
-- run from the directory above `fire_an` as
+- run from the directory above `ne8abs_paper` as
   ```
-  python -m fire_an/queuerun/run -3
+  python -m ne8abs_paper/queuerun/run -3
   ```
   (This will raise an error because `run.py` only takes postive integer
   arguments, but it also won't accidentally start an hour-long process
   on a login node.)
-- or add the directory above fire_an (e.g. `foo`) to `PYTHONPATH`:
+- or add the directory above ne8abs_paper (e.g. `foo`) to `PYTHONPATH`:
   ```
   export PYTHONPATH="/path/to/foo/:${PYTHONPATH}"
   ```
   and then, from anywhere, run: 
   ```
-  python -m fire_an.queuerun.run -3
+  python -m ne8abs_paper.queuerun.run -3
   ```
   or specify an absolute or relative path to `run.py` from your 
   current directory:
   ```
-  python /path/to/fire_an/queuerun/run.py -3
+  python /path/to/ne8abs_paper/queuerun/run.py -3
   ```
 
 This is basically an issue of the different scripts in different 
 directories needing to be able to find each other. Running from the
-directory above `fire_an` adds that directory to `PYTHONPATH`, like 
+directory above `ne8abs_paper` adds that directory to `PYTHONPATH`, like 
 adding it to `PYTHONPATH` explicitly does. 
-
-
-main functions:
----------------
-TODO
-
-warning:
---------
-This repo is mainly for me to sync up in-progress work. Much of this
-code is untested, half-finished projects I abandoned, or work in 
-progress. Also, I have a tendency to do work and testing on the main
-branch.
-
-Note that tests are usually of the 'plot and see if it makes sense'
-form, not functions that will return a boolean value.
-

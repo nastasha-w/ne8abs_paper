@@ -10,7 +10,7 @@ Note: does not actually work on my laptop! Just to keep spyder from complaining
 
 
 import string as string
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.utils.constants_and_units as c
 
 ############################
 #    setup and functions   #

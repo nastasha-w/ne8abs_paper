@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-import fire_an.makeplots.litcomp.obsdataread as odr
-import fire_an.makeplots.tol_colors as tc
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.makeplots.litcomp.obsdataread as odr
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.opts_locs as ol
 
 oddir = '/projects/b1026/nastasha/extdata/'
 q23filen = oddir + 'plotdata_q23_nsigmas_1_2.dat'

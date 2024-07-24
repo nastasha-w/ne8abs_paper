@@ -3,10 +3,10 @@ import matplotlib.gridspec as gsp
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.makeplots.cgm_fgas_zne.readprop as rpr
-import fire_an.makeplots.plot_utils as pu
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.makeplots.cgm_fgas_zne.readprop as rpr
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
 
 mdir = '/projects/b1026/nastasha/imgs/cgmprop/'
 

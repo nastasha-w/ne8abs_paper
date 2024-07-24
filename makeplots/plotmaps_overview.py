@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 import matplotlib.gridspec as gsp
 import numpy as np
 
-import fire_an.makeplots.plot_utils as pu
-import fire_an.simlists as sl
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.constants_and_units as c
 
 def readmap(filen, weightmap=False):
     with h5py.File(filen, 'r') as f:

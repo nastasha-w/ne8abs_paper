@@ -13,10 +13,10 @@ import numpy as np
 import pandas as pd
 import scipy.optimize as so
 
-import fire_an.makeplots.litcomp.obsdataread as odr
-import fire_an.utils.cosmo_utils as cu
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.math_utils as mu
+import ne8abs_paper.makeplots.litcomp.obsdataread as odr
+import ne8abs_paper.utils.cosmo_utils as cu
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.math_utils as mu
 
 mdir = '/projects/b1026/nastasha/imgs/datacomp/eagle/'
 eagledatadir = '/projects/b1026/nastasha/extdata/eaglepaper2/'

@@ -5,11 +5,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.special as sps
 
-import fire_an.mstar_mhalo.analytical as an
-import fire_an.mstar_mhalo.loader_smdpl_sfr as ldsmdpl
-import fire_an.utils.math_utils as mu
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
+import ne8abs_paper.mstar_mhalo.analytical as an
+import ne8abs_paper.mstar_mhalo.loader_smdpl_sfr as ldsmdpl
+import ne8abs_paper.utils.math_utils as mu
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
 
 ## directory where the images go
 imgdir = '/projects/b1026/nastasha/imgs/datacomp/smhm/'

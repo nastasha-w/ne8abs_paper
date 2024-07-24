@@ -6,10 +6,10 @@ import matplotlib.lines as mlines
 import matplotlib.patches as mpatch
 import matplotlib.pyplot as plt
 
-import fire_an.makeplots.get_2dprof as gpr
-import fire_an.makeplots.plot_utils as pu
-import fire_an.makeplots.tol_colors as tc
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.makeplots.get_2dprof as gpr
+import ne8abs_paper.makeplots.plot_utils as pu
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.utils.constants_and_units as c
 
 def compare_profiles_BHnoBH(bhfiles, nobhfiles,
                             legendlab_bhfs, legendlab_nobhfs,

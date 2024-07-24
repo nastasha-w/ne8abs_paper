@@ -3,10 +3,10 @@ import matplotlib.gridspec as gsp
 import matplotlib.pyplot as plt
 import numpy as np
 
-import fire_an.ionrad.get_cieranges as gcie
-import fire_an.makeplots.tol_colors as tc
-import fire_an.simlists as sl
-import fire_an.utils.opts_locs as ol
+import ne8abs_paper.ionrad.get_cieranges as gcie
+import ne8abs_paper.makeplots.tol_colors as tc
+import ne8abs_paper.simlists as sl
+import ne8abs_paper.utils.opts_locs as ol
 
 profdatafn = ('/projects/b1026/nastasha/plotdata/'
               'radprof3d_nH_T_ZNe_by_vol_Ne8_opt2.hdf5')

@@ -2,7 +2,7 @@
 import h5py
 import numpy as np
 
-import fire_an.utils.constants_and_units as c
+import ne8abs_paper.utils.constants_and_units as c
 
 
 def get_rval_massmap(filen, units='pkpc', weightmap=False,

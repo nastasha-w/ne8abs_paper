@@ -1,11 +1,11 @@
 import numpy as np
 import h5py
 
-import fire_an.mainfunc.get_qty as gq
-import fire_an.mainfunc.haloprop as hp
-import fire_an.readfire.readin_fire_data as rfd
-import fire_an.utils.constants_and_units as c
-import fire_an.utils.h5utils as h5u
+import ne8abs_paper.mainfunc.get_qty as gq
+import ne8abs_paper.mainfunc.haloprop as hp
+import ne8abs_paper.readfire.readin_fire_data as rfd
+import ne8abs_paper.utils.constants_and_units as c
+import ne8abs_paper.utils.h5utils as h5u
 
 def wtdavnorm(dirpath, snapnum, parttype, 
               maptype1, maptype_args1, maptype2, maptype_args2,
