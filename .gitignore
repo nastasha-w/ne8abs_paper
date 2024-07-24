@@ -1,6 +1,7 @@
 ## custom 
 utils/opts_locs.py
 .vscode
+.env
 
 ## backups and queueing
 slurm*.sh
